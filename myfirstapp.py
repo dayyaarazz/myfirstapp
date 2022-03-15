@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import string
 import pickle
+from sklearn.naive_bayes import GaussianNB
 model = pickle.load(open('model_pkl.pkl', 'rb'))
-
 
 
 def main():
