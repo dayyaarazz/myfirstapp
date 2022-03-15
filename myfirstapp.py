@@ -2,8 +2,8 @@ import streamlit as st
 import numpy as np
 import string
 import pickle
-st.set_option('depreciation.showfileUploaderEncoding', False)
 model = pickle.load(open('model_pkl.pkl', 'rb'))
+
 
 
 def main():
