@@ -3,10 +3,4 @@ numpy==1.20.2
 pandas==1.2.4
 scikit-image==0.18.3
 scikit-learn==1.0.2
-streamlit==0.81.0
-plotly
-scipy
-pandas
-Flask
-flask-cors
-pyforest
+
