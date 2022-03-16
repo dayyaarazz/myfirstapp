@@ -5,13 +5,11 @@ import pickle
 from sklearn.naive_bayes import GaussianNB
 model = pickle.load(open('model_pkl.pkl', 'rb'))
 
-
 def main():
   st.sidebar.header("Stroke Risk Prediction")
   st.sidebar.text("This app will tell you the predicted wether you will have stroke or not.")
   st.sidebar.header("Fill in the information below")
   st.sidebar.text("The GaussianNaiveBayes Classifier was used.")
-
 
 
   age = st.slider("Input your age", 0,100)
